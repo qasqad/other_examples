@@ -1,15 +1,12 @@
 /******************************************************************************
-
 Дана матрица натуральных чисел размера N x M
 Задача – создать консольное приложение, которое обходит матрицу по спирали (по часовой или против часовой стрелке), начиная с элемента [0][0]. Вывести на экран строку чисел
-
 Например, для матрицы:
 1 2 3
 4 5 6
 7 8 9
 Ответ будет:
 1 2 3 6 9 8 7 4 5
-
 *******************************************************************************/
 using System;
 class Matrix
@@ -89,106 +86,108 @@ class Matrix
 
             Console.WriteLine("\nПо часовой");
 
-            bx = true; // идем вдоль оси x в положительном направлении (вправо)
-            by = true; // идем вдоль оси y в положительном направлении (вниз)
-
+            
             dx = 0;
             dy = 0;
 
             x_i = 0;
             y_i = 0;
 
+
+
             do
 
-            {
-
-
-                if (bx && by) // идем вправо сверху
-
                 {
+                    
                     while (x_i < (M - dx))
 
-                    {
+                        {
 
-                        Console.Write(matr[y_i, x_i] + " ");
+                            Console.Write(matr[y_i, x_i] + " ");
 
-                        x_i++;
-                        steps_sum++;
+                            x_i++;
+                            steps_sum++;
 
+                            if (N * M <= steps_sum)
+                                goto Finish_1;
 
-                    }
+                        }
 
-
-                    bx = false;
                     x_i--;
                     y_i++;
 
-                }
 
-                if (!bx && by) // идем вниз справа
-
-                {
                     while (y_i < (N - dy))
 
-                    {
+                        {
 
-                        Console.Write(matr[y_i, x_i] + " ");
+                            Console.Write(matr[y_i, x_i] + " ");
 
-                        y_i++;
-                        steps_sum++;
+                            y_i++;
+                            steps_sum++;
 
-                    }
+                            if (N * M <= steps_sum)
+                                goto Finish_1;
 
-                    by = false;
+
+                        }
+                                       
+
                     dy++;
                     y_i--;
 
                     x_i--;
+                
 
-                }
 
-                if (!bx && !by) // идем влево внизу
 
-                {
                     while ((M - x_i - 1) < (M - dx))
 
-                    {
-                        Console.Write(matr[y_i, x_i] + " ");
+                        {
+                        
+                            Console.Write(matr[y_i, x_i] + " ");
 
-                        x_i--;
-                        steps_sum++;
+                            x_i--;
+                            steps_sum++;
 
-                    }
 
-                    bx = true;
+                            if (N * M <= steps_sum)
+                                goto Finish_1;
+
+
+                        }
+
+
                     dx++;
                     x_i++;
 
                     y_i--;
 
-                }
 
-                if (bx && !by) // идем вверх слева
-
-                {
                     while ((N - y_i - 1) < (N - dy))
 
-                    {
-                        Console.Write(matr[y_i, x_i] + " ");
+                        {
+                    
+                            Console.Write(matr[y_i, x_i] + " ");
 
-                        y_i--;
-                        steps_sum++;
-                    }
+                            y_i--;
+                            steps_sum++;
+                    
+                        }
 
-                    by = true;
+    Finish_1:
+                
                     y_i++;
-
                     x_i++;
+
+            
+            
                 }
-
-            }
-
+    
             while (N * M > steps_sum);
+
+            
+
 
         }
 
@@ -198,9 +197,6 @@ class Matrix
         {
 
             Console.WriteLine("\nПротив часовой");
-
-            by_2 = true; // идем вдоль оси y в положительном направлении (вниз)
-            bx_2 = true; // идем вдоль оси x в положительном направлении (вправо)
 
             dx_2 = 0;
             dy_2 = 0;
@@ -213,30 +209,26 @@ class Matrix
             {
 
 
-                if (bx_2 && by_2) // идем вниз слева
-
-                {
-                    while (y_i_2 < (N - dy_2))
+               while (y_i_2 < (N - dy_2))
 
                     {
                         Console.Write(matr[y_i_2, x_i_2] + " ");
 
                         y_i_2++;
                         steps_sum++;
+
+                        if (N * M <= steps_sum)
+                            goto Finish_2;
+
                     }
 
-                    by_2 = false;
-                    y_i_2--;
-
-                    x_i_2++;
 
 
-                }
+                y_i_2--;
+                x_i_2++;
 
-                if (bx_2 && !by_2) // идем вправо снизу
 
-                {
-                    while (x_i_2 < (M - dx_2))
+                while (x_i_2 < (M - dx_2))
 
                     {
 
@@ -245,46 +237,39 @@ class Matrix
                         x_i_2++;
                         steps_sum++;
 
+                        if (N * M <= steps_sum)
+                            goto Finish_2;
 
                     }
 
-
-                    bx_2 = false;
                     x_i_2--;
-
                     y_i_2--;
 
 
 
 
-                }
-
-                if (!bx_2 && !by_2) // идем вверх справа
-
-                {
-                    while ((N - y_i_2 - 1) < (N - dy_2))
+               while ((N - y_i_2 - 1) < (N - dy_2))
 
                     {
                         Console.Write(matr[y_i_2, x_i_2] + " ");
 
                         y_i_2--;
                         steps_sum++;
+
+                        if (N * M <= steps_sum)
+                            goto Finish_2;
+
                     }
 
-                    by_2 = true;
                     y_i_2++;
                     dx_2++;
-                    
+
                     x_i_2--;
 
 
-                }
+                
 
-                if (!bx_2 && by_2) // идем влево сверху
-
-                {
-
-                    while ((M - x_i_2 - 1) < (M - dx_2))
+                while ((M - x_i_2 - 1) < (M - dx_2))
 
                     {
                         Console.Write(matr[y_i_2, x_i_2] + " ");
@@ -294,15 +279,15 @@ class Matrix
 
                     }
 
-                    bx_2 = true;
+                    
                     x_i_2++;
                     dy_2++;
 
+    Finish_2:
+
                     y_i_2++;
 
-
-
-                }
+                
 
             }
 
