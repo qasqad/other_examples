@@ -19,9 +19,9 @@ void chartype()
 	b.Print();
 
 	if (a!=b) {
-		cout<< "Ñïèñêè íåðàâíû"<<endl;
+		cout<< "Ð¡Ð¿Ð¸ÑÐºÐ¸ Ð½ÐµÑ€Ð°Ð²Ð½Ñ‹"<<endl;
 	}
-	else {cout<< "Ñïèñêè ðàâíû"<<endl;}
+	else {cout<< "Ð¡Ð¿Ð¸ÑÐºÐ¸ Ñ€Ð°Ð²Ð½Ñ‹"<<endl;}
 	cout << b[0] <<endl;
 
 }
@@ -41,7 +41,7 @@ void inttype()
 	b.Print();
 
 	if (a!=b) {
-		cout<< "Ñïèñêè íåðàâíû"<<endl;
+		cout<< "Ð¡Ð¿Ð¸ÑÐºÐ¸ Ð½ÐµÑ€Ð°Ð²Ð½Ñ‹"<<endl;
 	}
 	cout << b[0] <<endl;
 
@@ -61,7 +61,7 @@ void doubletype()
 	b.Print();
 
 	if (a!=b) {
-		cout<< "Ñïèñêè íåðàâíû"<<endl;
+		cout<< "Ð¡Ð¿Ð¸ÑÐºÐ¸ Ð½ÐµÑ€Ð°Ð²Ð½Ñ‹"<<endl;
 	}
 	cout << b[0] <<endl;
 

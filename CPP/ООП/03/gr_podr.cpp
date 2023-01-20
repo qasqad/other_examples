@@ -1,4 +1,4 @@
-// œŒƒ–¿«ƒ≈À≈Õ»≈
+// –ü–û–î–†–ê–ó–î–ï–õ–ï–ù–ò–ï
 #include "gr_podr.h"
 #include <string>
 
@@ -21,6 +21,6 @@ void gr_podr::insert(gr_TObject* gr_o2, item* it2)
 
 void gr_podr::show() const
 {
-	cout<<"Show ‚˚Á‚‡Ì "<<this->obj_name<<endl;
+	cout<<"Show –≤—ã–∑–≤–∞–Ω "<<this->obj_name<<endl;
 }
 

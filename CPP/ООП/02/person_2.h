@@ -1,4 +1,4 @@
-// ПЕРСОНА
+// пћ­пћЈпћ®пћЇпћ¬пћ«пћћ
 #pragma once
 #include <string>
 #include <iostream>
@@ -8,9 +8,9 @@ class person_2
 {
 	protected:	
 	
-		string	nm;		// имя
-		short	age;	// возраст
-		bool	sx;		// пол (true - м.р., false - ж.р.)
+		string	nm;		// ЧЧњпџЃ
+		short	age;	// Ч’ЧћЧ—Ч ЧђЧЎЧў
+		bool	sx;		// ЧџЧћЧ› (true - Чњ.Ч ., false - Ч–.Ч .)
 	
 	public:
 		person_2();

@@ -19,7 +19,7 @@ list::~list()
 void list::Print()
 {
 	if (!begin){
-		cout<< "ñïèñîê ïóñò" <<endl;
+		cout<< "ÑĞ¿Ğ¸ÑĞ¾Ğº Ğ¿ÑƒÑÑ‚" <<endl;
 		return;
 	}
 	list* p = begin;
@@ -35,7 +35,7 @@ void list::Print()
 
 bool list::operator!=(const list& x)
 {
-	cout << "Âûçâàíà ïåğåãğóçêà îïåğàòîğà '!='.\n";
+	cout << "Ğ’Ñ‹Ğ·Ğ²Ğ°Ğ½Ğ° Ğ¿ĞµÑ€ĞµĞ³Ñ€ÑƒĞ·ĞºĞ° Ğ¾Ğ¿ĞµÑ€Ğ°Ñ‚Ğ¾Ñ€Ğ° '!='.\n";
 	list *pv = begin;
 	list *dpv = x.begin;
 	while ((pv)&&(dpv))
@@ -51,9 +51,9 @@ bool list::operator!=(const list& x)
 char list::operator[](int x)
 {
 	int i=0;
-	cout << "Âûçâàíà ïåğåãğóçêà îïåğàòîğà '[]'.\n";
+	cout << "Ğ’Ñ‹Ğ·Ğ²Ğ°Ğ½Ğ° Ğ¿ĞµÑ€ĞµĞ³Ñ€ÑƒĞ·ĞºĞ° Ğ¾Ğ¿ĞµÑ€Ğ°Ñ‚Ğ¾Ñ€Ğ° '[]'.\n";
 	if (!begin){
-		cout<< "ñïèñîê ïóñò" <<endl;
+		cout<< "ÑĞ¿Ğ¸ÑĞ¾Ğº Ğ¿ÑƒÑÑ‚" <<endl;
 		return '0';
 	}
 	list* p = begin;

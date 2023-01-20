@@ -1,4 +1,4 @@
-// œ≈–—ŒÕ¿
+// –ü–ï–†–°–û–ù–ê
 #include "person.h"
 #include <string>
 
@@ -15,7 +15,7 @@ person::person()
 
 person::person(char nm2[30], int age2, bool sx2)
 {
-	//cout<<" ÓÌÒÚÛÍÚÓ Ò Ô‡‡ÏÂÚ‡ÏË person\n";
+	//cout<<"–ö–æ–Ω—Å—Ç—Ä—É–∫—Ç–æ—Ä —Å –ø–∞—Ä–∞–º–µ—Ç—Ä–∞–º–∏ person\n";
 	
     for (int i=0; i<29; i++)
         this->nm[i] = nm2[i];
@@ -27,19 +27,19 @@ person::person(char nm2[30], int age2, bool sx2)
 
 person::~person()
 {
-	//cout<<"ƒÂÒÚÛÍÚÓ person\n";
+	//cout<<"–î–µ—Å—Ç—Ä—É–∫—Ç–æ—Ä person\n";
 }
 
 void person::show() const
 {
-	cout<<"›ÍÁÂÏÔÎˇ ÍÎ‡ÒÒ‡ \"œ≈–—ŒÕ¿\", ‚ËÚÛ‡Î¸Ì‡ˇ Ù-ˆËˇ: \n";
+	cout<<"–≠–∫–∑–µ–º–ø–ª—è—Ä –∫–ª–∞—Å—Å–∞ \"–ü–ï–†–°–û–ù–ê\", –≤–∏—Ç—Ä—É–∞–ª—å–Ω–∞—è —Ñ-—Ü–∏—è: \n";
 	
-	cout<<"»Ïˇ: "<<this->nm<<endl;
-	cout<<"¬ÓÁ‡ÒÚ: "<<this->age<<endl;
-	cout<<"œÓÎ: ";
+	cout<<"–ò–º—è: "<<this->nm<<endl;
+	cout<<"–í–æ–∑—Ä–∞—Å—Ç: "<<this->age<<endl;
+	cout<<"–ü–æ–ª: ";
 
-	if(this->sx)	cout<<"ÏÛÊÒÍÓÈ\n\n";
-	else			cout<<"ÊÂÌÒÍËÈ\n\n";
+	if(this->sx)	cout<<"–º—É–∂—Å–∫–æ–π\n\n";
+	else			cout<<"–∂–µ–Ω—Å–∫–∏–π\n\n";
 }
 
 void person::SetNm(char Nm3[30])

@@ -1,4 +1,4 @@
-// СПИСОК
+// РЎРџРРЎРћРљ
 #pragma once
 #include <string>
 #include <iostream>
@@ -8,14 +8,14 @@ using namespace std;
 class item_2 
 {
 	private:
-			static item_2* begin;		// указатель на начало списка
-			item_2* next;				// указатель на следующий элемент
+			static item_2* begin;		// СѓРєР°Р·Р°С‚РµР»СЊ РЅР° РЅР°С‡Р°Р»Рѕ СЃРїРёСЃРєР°
+			item_2* next;				// СѓРєР°Р·Р°С‚РµР»СЊ РЅР° СЃР»РµРґСѓСЋС‰РёР№ СЌР»РµРјРµРЅС‚
 			person_2* p;
 			
 	public:
 
-			item_2(person_2* p2);		// конструктор
+			item_2(person_2* p2);		// РєРѕРЅСЃС‚СЂСѓРєС‚РѕСЂ
 			~item_2();
-			void add();					// добавляет элемент в начало списка.
-			static void show();			// показ списка
+			void add();					// РґРѕР±Р°РІР»СЏРµС‚ СЌР»РµРјРµРЅС‚ РІ РЅР°С‡Р°Р»Рѕ СЃРїРёСЃРєР°.
+			static void show();			// РїРѕРєР°Р· СЃРїРёСЃРєР°
 };

@@ -1,4 +1,4 @@
-// ÎÁÚÅÊÒ (ÀÁÑÒĞÀÊÒÍÛÉ)
+// ĞĞ‘ĞªĞ•ĞšĞ¢ (ĞĞ‘Ğ¡Ğ¢Ğ ĞĞšĞ¢ĞĞ«Ğ™)
 #pragma once
 
 #include <string>
@@ -15,7 +15,7 @@ class gr_TObject
 	    
         
         
-        string obj_name;				// èìÿ îáúåêòà
+        string obj_name;				// Ğ¸Ğ¼Ñ Ğ¾Ğ±ÑŠĞµĞºÑ‚Ğ°
 		gr_TObject();
 		virtual ~gr_TObject();
 		virtual void show() const;

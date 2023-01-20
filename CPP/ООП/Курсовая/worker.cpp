@@ -1,4 +1,4 @@
-// –¿¡Œ◊»…
+// –†–ê–ë–û–ß–ò–ô
 #include "worker.h"
 #include "person.h"
 #include <string>
@@ -19,7 +19,7 @@ worker::worker()
 
 worker::worker(char nm3[30], int age3, bool sx3, int wqp2):person(nm3, age3, sx3)
 {
-	//cout<<" ÓÌÒÚÛÍÚÓ worker\n";
+	//cout<<"–ö–æ–Ω—Å—Ç—Ä—É–∫—Ç–æ—Ä worker\n";
 
     for (int i=0; i<29; i++)
         this->nm[i] = nm3[i];
@@ -37,21 +37,21 @@ worker::worker(char nm3[30], int age3, bool sx3, int wqp2):person(nm3, age3, sx3
 
 worker::~worker()
 {
-	//cout<<"ƒÂÒÚÛÍÚÓ worker\n";
+	//cout<<"–î–µ—Å—Ç—Ä—É–∫—Ç–æ—Ä worker\n";
 }
 
 void worker::show() const
 {
-	cout<<"›ÍÁÂÏÔÎˇ ÍÎ‡ÒÒ‡ \"–¿¡Œ◊»…\", ‚ËÚÛ‡Î¸Ì‡ˇ Ù-ˆËˇ: \n";
+	cout<<"–≠–∫–∑–µ–º–ø–ª—è—Ä –∫–ª–∞—Å—Å–∞ \"–†–ê–ë–û–ß–ò–ô\", –≤–∏—Ç—Ä—É–∞–ª—å–Ω–∞—è —Ñ-—Ü–∏—è: \n";
 	
-	cout<<"»Ïˇ: "<<this->nm<<endl;
-	cout<<"¬ÓÁ‡ÒÚ: "<<this->age<<endl;
-	cout<<"œÓÎ: ";
-	if (this->sx)	cout<<"ÏÛÊÒÍÓÈ\n";
-	else			cout<<"ÊÂÌÒÍËÈ\n";
+	cout<<"–ò–º—è: "<<this->nm<<endl;
+	cout<<"–í–æ–∑—Ä–∞—Å—Ç: "<<this->age<<endl;
+	cout<<"–ü–æ–ª: ";
+	if (this->sx)	cout<<"–º—É–∂—Å–∫–æ–π\n";
+	else			cout<<"–∂–µ–Ω—Å–∫–∏–π\n";
 
 	
-	cout<<"+œÓˆÂÌÚ ÛÒÎÓ‚ËÈ ‡·ÓÚ˚: "<<this->wqp<<"\n\n";
+	cout<<"+–ü—Ä–æ—Ü–µ–Ω—Ç —É—Å–ª–æ–≤–∏–π —Ä–∞–±–æ—Ç—ã: "<<this->wqp<<"\n\n";
 }
 
 

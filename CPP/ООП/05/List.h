@@ -29,7 +29,7 @@ template <typename T>
 void list<T>::Print()
 {
 	if (!begin){
-		cout<< "ñïèñîê ïóñò" <<endl;
+		cout<< "ÑÐ¿Ð¸ÑÐ¾Ðº Ð¿ÑƒÑÑ‚" <<endl;
 		return;
 	}
 	list* p = begin;
@@ -45,7 +45,7 @@ void list<T>::Print()
 template <typename T>
 bool list<T>::operator!=(const list<T>& x)
 {
-	cout << "Âûçâàíà ïåðåãðóçêà îïåðàòîðà '!='.\n";
+	cout << "Ð’Ñ‹Ð·Ð²Ð°Ð½Ð° Ð¿ÐµÑ€ÐµÐ³Ñ€ÑƒÐ·ÐºÐ° Ð¾Ð¿ÐµÑ€Ð°Ñ‚Ð¾Ñ€Ð° '!='.\n";
 	list *pv = begin;
 	list *dpv = x.begin;
 	while ((pv)&&(dpv))
@@ -61,9 +61,9 @@ template <typename T>
 T list<T>::operator[](int x)
 {
 	
-	cout << "Âûçâàíà ïåðåãðóçêà îïåðàòîðà '[]'.\n";
+	cout << "Ð’Ñ‹Ð·Ð²Ð°Ð½Ð° Ð¿ÐµÑ€ÐµÐ³Ñ€ÑƒÐ·ÐºÐ° Ð¾Ð¿ÐµÑ€Ð°Ñ‚Ð¾Ñ€Ð° '[]'.\n";
 	if (!begin){
-		cout<< "ñïèñîê ïóñò" <<endl;
+		cout<< "ÑÐ¿Ð¸ÑÐ¾Ðº Ð¿ÑƒÑÑ‚" <<endl;
 		return 0;
 	}
 	list* p = begin;

@@ -1,4 +1,4 @@
-// ќ–√јЌ»«ј÷»я (дл€ включени€ ÷≈’ј и Ќјѕ–ј¬Ћ≈Ќ»я)
+// –Ю–†–У–Р–Э–Ш–Ч–Р–¶–Ш–ѓ (–і–ї—П –≤–Ї–ї—О—З–µ–љ–Є—П –¶–Х–•–Р –Є –Э–Р–Я–†–Р–Т–Ы–Х–Э–Ш–ѓ)
 #pragma once
 #include "gr_podr.h"
 #include <string>
@@ -8,7 +8,7 @@ using namespace std;
 
 typedef void(*fp)(gr_TObject*, int * t);
 
-class gr_org:public gr_podr		// ќ–√јЌ»«ј÷»я потомок от ѕќƒ–ј«ƒ≈Ћ≈Ќ»я
+class gr_org:public gr_podr		// –Ю–†–У–Р–Э–Ш–Ч–Р–¶–Ш–ѓ –њ–Њ—В–Њ–Љ–Њ–Ї –Њ—В –Я–Ю–Ф–†–Р–Ч–Ф–Х–Ы–Х–Э–Ш–ѓ
 {
 	
 	public:

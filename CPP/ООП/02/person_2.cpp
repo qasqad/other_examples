@@ -1,12 +1,12 @@
-// ÏÅĞÑÎÍÀ
+// ĞŸĞ•Ğ Ğ¡ĞĞĞ
 #include "person_2.h"
 #include <string>
 
 
 person_2::person_2()
 {
-	cout<<"Êîíñòğóêòîğ person\n";
-	this->nm = "Âàñèëèé";
+	cout<<"ĞšĞ¾Ğ½ÑÑ‚Ñ€ÑƒĞºÑ‚Ğ¾Ñ€ person\n";
+	this->nm = "Ğ’Ğ°ÑĞ¸Ğ»Ğ¸Ğ¹";
 	this->age = 25;
 	this->sx = true;
 }
@@ -20,7 +20,7 @@ person_2::person_2()
 //
 //person_2::person_2(const person_2 & p1)
 //{
-//	cout<<"Êîíñòğóêòîğ êîïèğîâàíèÿ person\n";
+//	cout<<"ĞšĞ¾Ğ½ÑÑ‚Ñ€ÑƒĞºÑ‚Ğ¾Ñ€ ĞºĞ¾Ğ¿Ğ¸Ñ€Ğ¾Ğ²Ğ°Ğ½Ğ¸Ñ person\n";
 //	this->nm = p1.nm;
 //	this->age = p1.age;
 //	this->age = p1.sx;
@@ -28,30 +28,30 @@ person_2::person_2()
 
 person_2::~person_2()
 {
-	cout<<"Äåñòğóêòîğ person\n";
+	cout<<"Ğ”ĞµÑÑ‚Ñ€ÑƒĞºÑ‚Ğ¾Ñ€ person\n";
 }
 
 void person_2::show() const
 {
-	cout<<"İêçåìïëÿğ êëàññà \"ÏÅĞÑÎÍÀ\", âèòğóàëüíàÿ ô-öèÿ: \n";
+	cout<<"Ğ­ĞºĞ·ĞµĞ¼Ğ¿Ğ»ÑÑ€ ĞºĞ»Ğ°ÑÑĞ° \"ĞŸĞ•Ğ Ğ¡ĞĞĞ\", Ğ²Ğ¸Ñ‚Ñ€ÑƒĞ°Ğ»ÑŒĞ½Ğ°Ñ Ñ„-Ñ†Ğ¸Ñ: \n";
 	
-	cout<<"Èìÿ: "<<this->nm<<endl;
-	cout<<"Âîçğàñò: "<<this->age<<endl;
-	cout<<"Ïîë: ";
+	cout<<"Ğ˜Ğ¼Ñ: "<<this->nm<<endl;
+	cout<<"Ğ’Ğ¾Ğ·Ñ€Ğ°ÑÑ‚: "<<this->age<<endl;
+	cout<<"ĞŸĞ¾Ğ»: ";
 
-	if(this->sx)	cout<<"ìóæñêîé\n\n";
-	else			cout<<"æåíñêèé\n\n";
+	if(this->sx)	cout<<"Ğ¼ÑƒĞ¶ÑĞºĞ¾Ğ¹\n\n";
+	else			cout<<"Ğ¶ĞµĞ½ÑĞºĞ¸Ğ¹\n\n";
 }
 
 
 void person_2::show2() const
 {
-	cout<<"İêçåìïëÿğ êëàññà \"ÏÅĞÑÎÍÀ\", ÍÅ âèòğóàëüíàÿ ô-öèÿ: \n";
+	cout<<"Ğ­ĞºĞ·ĞµĞ¼Ğ¿Ğ»ÑÑ€ ĞºĞ»Ğ°ÑÑĞ° \"ĞŸĞ•Ğ Ğ¡ĞĞĞ\", ĞĞ• Ğ²Ğ¸Ñ‚Ñ€ÑƒĞ°Ğ»ÑŒĞ½Ğ°Ñ Ñ„-Ñ†Ğ¸Ñ: \n";
 	
-	cout<<"Èìÿ: "<<this->nm<<endl;
-	cout<<"Âîçğàñò: "<<this->age<<endl;
-	cout<<"Ïîë: ";
+	cout<<"Ğ˜Ğ¼Ñ: "<<this->nm<<endl;
+	cout<<"Ğ’Ğ¾Ğ·Ñ€Ğ°ÑÑ‚: "<<this->age<<endl;
+	cout<<"ĞŸĞ¾Ğ»: ";
 
-	if(this->sx)	cout<<"ìóæñêîé\n\n";
-	else			cout<<"æåíñêèé\n\n";
+	if(this->sx)	cout<<"Ğ¼ÑƒĞ¶ÑĞºĞ¾Ğ¹\n\n";
+	else			cout<<"Ğ¶ĞµĞ½ÑĞºĞ¸Ğ¹\n\n";
 }

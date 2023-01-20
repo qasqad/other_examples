@@ -1,4 +1,4 @@
-// ИНЖЕНЕР
+// В»РЊв€†в‰€РЊв‰€вЂ“
 #pragma once
 #include <string>
 #include <iostream>
@@ -8,8 +8,8 @@ using namespace std;
 class engineer:public person
 {
 	protected:	
-			int	pl;		// уровень разрабатываемых проектов (1-мелк, 2-ср, 3-кр)
-			int	px;		// количество человек в подчинении
+			int	pl;		// СѓСЂРѕРІРµРЅСЊ СЂР°Р·СЂР°Р±Р°С‚С‹РІР°РµРјС‹С… РїСЂРѕРµРєС‚РѕРІ (1-РјРµР»Рє, 2-СЃСЂ, 3-РєСЂ)
+			int	px;		// РєРѕР»РёС‡РµСЃС‚РІРѕ С‡РµР»РѕРІРµРє РІ РїРѕРґС‡РёРЅРµРЅРёРё
 	public:
             engineer();
 			engineer(char nm4[30], int age4, bool sx4, int pl2, int px2);

@@ -1,4 +1,4 @@
-// ОРГАНИЗАЦИЯ
+// СњвЂ“в€љСРЊВ»В«СГ·В»СЏ
 #include "typeinfo.h"
 #include "gr_org.h"
 #include "item.h"
@@ -11,7 +11,7 @@
 
 gr_org::gr_org()
 {
-	this->obj_name = "ОРГАНИЗАЦИЯ";
+	this->obj_name = "СњвЂ“в€љСРЊВ»В«СГ·В»СЏ";
 	
 }
 
@@ -32,11 +32,11 @@ gr_org::~gr_org()
 
 void gr_org::insert(gr_TObject* gr_o2, item* it2)
 {
-	//cout<<"Insert вызван "<<this->obj_name<<endl;
+	//cout<<"Insert РІС‹Р·РІР°РЅ "<<this->obj_name<<endl;
 	
 	int i=0; 
 	
-	while((it2+i)->TObj!=NULL)	i=rand()%54;	// поиск свободного item`а. элементы выбираются вперемешку
+	while((it2+i)->TObj!=NULL)	i=rand()%54;	// РїРѕРёСЃРє СЃРІРѕР±РѕРґРЅРѕРіРѕ item`Р°. СЌР»РµРјРµРЅС‚С‹ РІС‹Р±РёСЂР°СЋС‚СЃВ¤ РІРїРµСЂРµРјРµС€РєСѓ
 
 	(it2+i)->TObj = gr_o2;
 	(it2+i)->next = this->fO_lifo;
@@ -68,7 +68,7 @@ void gr_org::iter(fp fnc, int * t1)
     {
         if(typeid(*p3->TObj)==typeid(gr_tseh))
         {
-            //typeid(*p3->TObj).name(); - не работает (?)
+            //typeid(*p3->TObj).name(); - РЅРµ СЂР°Р±РѕС‚Р°РµС‚ (?)
             gr_tseh *tseh_t = (gr_tseh*) p3->TObj;
             tseh_t->iter(fnc, t1);
             p3=p3->next;
@@ -76,7 +76,7 @@ void gr_org::iter(fp fnc, int * t1)
 
         else
         {
-            //typeid(*p3->TObj).name(); - не работает (?)
+            //typeid(*p3->TObj).name(); - РЅРµ СЂР°Р±РѕС‚Р°РµС‚ (?)
             gr_nve *nve_t = (gr_nve*) p3->TObj;
             nve_t->iter(fnc, t1);
             p3=p3->next;
@@ -89,14 +89,14 @@ void gr_org::iter(fp fnc, int * t1)
 
         if(typeid(*p3->TObj)==typeid(gr_tseh))
         {
-            //typeid(*p3->TObj).name(); - не работает (?)
+            //typeid(*p3->TObj).name(); - РЅРµ СЂР°Р±РѕС‚Р°РµС‚ (?)
             gr_tseh *tseh_t = (gr_tseh*) p3->TObj;
             tseh_t->iter(fnc, t1);
         }
 
         else
         {
-            //typeid(*p3->TObj).name(); - не работает (?)
+            //typeid(*p3->TObj).name(); - РЅРµ СЂР°Р±РѕС‚Р°РµС‚ (?)
             gr_nve *nve_t = (gr_nve*) p3->TObj;
             nve_t->iter(fnc, t1);
         }

@@ -1,4 +1,4 @@
-// СПИСОК
+// РЎРџРРЎРћРљ
 #pragma once
 #include "gr_TObject.h"
 #include <string>
@@ -8,10 +8,10 @@ using namespace std;
 struct item 
 {
 	public:
-			item* next;				// указатель на следующий элемент
+			item* next;				// СѓРєР°Р·Р°С‚РµР»СЊ РЅР° СЃР»РµРґСѓСЋС‰РёР№ СЌР»РµРјРµРЅС‚
 			gr_TObject* TObj;
 			
 			item();
-			item(gr_TObject* TObj2);		// конструктор
+			item(gr_TObject* TObj2);		// РєРѕРЅСЃС‚СЂСѓРєС‚РѕСЂ
 			~item();
 };

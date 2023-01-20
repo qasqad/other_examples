@@ -1,4 +1,4 @@
-// ÖÅÕ (ÄËß ĞÀÁÎ×ÈÕ)
+// Ğ¦Ğ•Ğ¥ (Ğ”Ğ›Ğ¯ Ğ ĞĞ‘ĞĞ§Ğ˜Ğ¥)
 #pragma once
 #include "gr_org.h"
 #include <string>
@@ -6,7 +6,7 @@
 
 using namespace std;
 
-class gr_tseh:public gr_org		// ÖÅÕ ïîòîìîê îò ÎĞÃÀÍÈÇÀÖÈÈ
+class gr_tseh:public gr_org		// Ğ¦Ğ•Ğ¥ Ğ¿Ğ¾Ñ‚Ğ¾Ğ¼Ğ¾Ğº Ğ¾Ñ‚ ĞĞ Ğ“ĞĞĞ˜Ğ—ĞĞ¦Ğ˜Ğ˜
 {		
 	public:
 			gr_tseh();

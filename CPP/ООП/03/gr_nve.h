@@ -1,11 +1,11 @@
-// Ќјѕ–ј¬Ћ≈Ќ»≈ (ƒЋя »Ќ∆≈Ќ≈–ќ¬)
+// –Э–Р–Я–†–Р–Т–Ы–Х–Э–Ш–Х (–Ф–Ы–ѓ –Ш–Э–Ц–Х–Э–Х–†–Ю–Т)
 #pragma once
 #include "cls_worker.h"
 #include "gr_org.h"
 
 using namespace std;
 
-class gr_nve:public gr_org		// Ќјѕ–ј¬Ћ≈Ќ»≈ потомок от ќ–√јЌ»«ј÷»»
+class gr_nve:public gr_org		// –Э–Р–Я–†–Р–Т–Ы–Х–Э–Ш–Х –њ–Њ—В–Њ–Љ–Њ–Ї –Њ—В –Ю–†–У–Р–Э–Ш–Ч–Р–¶–Ш–Ш
 {
 	//	protected:
 			

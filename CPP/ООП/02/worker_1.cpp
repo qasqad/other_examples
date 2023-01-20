@@ -1,4 +1,4 @@
-// РАБОЧИЙ
+// Р РђР‘РћР§РР™
 #include "worker_1.h"
 #include "employer_1.h"
 #include "person_1.h"
@@ -7,12 +7,12 @@
 
 worker_1::worker_1()
 {
-	cout<<"Конструктор worker\n";
-	this->nm = "Николай";
+	cout<<"РљРѕРЅСЃС‚СЂСѓРєС‚РѕСЂ worker\n";
+	this->nm = "РќРёРєРѕР»Р°Р№";
 	this->age = 45;
 	this->sx = true;
 
-	this->pfnm = "сельское хозяйство";
+	this->pfnm = "СЃРµР»СЊСЃРєРѕРµ С…РѕР·СЏР№СЃС‚РІРѕ";
 	this->zp = 40000;
 	this->staj = 2;
 	this->wg = 50;
@@ -37,7 +37,7 @@ worker_1::worker_1()
 //
 //worker_1::worker_1(const worker_1 & w1)
 //{
-//	cout<<"Конструктор копирования worker\n";
+//	cout<<"РљРѕРЅСЃС‚СЂСѓРєС‚РѕСЂ РєРѕРїРёСЂРѕРІР°РЅРёСЏ worker\n";
 //	this->nm = w1.nm;
 //	this->age = w1.age;
 //	this->sx = w1.sx;
@@ -52,42 +52,42 @@ worker_1::worker_1()
 
 worker_1::~worker_1()
 {
-	cout<<"Деструктор worker\n";
+	cout<<"Р”РµСЃС‚СЂСѓРєС‚РѕСЂ worker\n";
 }
 
 void worker_1::show() const
 {
-	cout<<"Экземпляр класса \"РАБОЧИЙ\", витруальная ф-ция: \n";
+	cout<<"Р­РєР·РµРјРїР»СЏСЂ РєР»Р°СЃСЃР° \"Р РђР‘РћР§РР™\", РІРёС‚СЂСѓР°Р»СЊРЅР°СЏ С„-С†РёСЏ: \n";
 	
-	cout<<"Имя: "<<this->nm<<endl;
-	cout<<"Возраст: "<<this->age<<endl;
-	cout<<"Пол: ";
-	if (this->sx)	cout<<"мужской\n";
-	else			cout<<"женский\n";
+	cout<<"РРјСЏ: "<<this->nm<<endl;
+	cout<<"Р’РѕР·СЂР°СЃС‚: "<<this->age<<endl;
+	cout<<"РџРѕР»: ";
+	if (this->sx)	cout<<"РјСѓР¶СЃРєРѕР№\n";
+	else			cout<<"Р¶РµРЅСЃРєРёР№\n";
 	
-	cout<<"Проф. область: "<<this->pfnm<<endl;
-	cout<<"Заработная плата: "<<this->zp<<endl;
-	cout<<"Стаж: "<<this->staj<<endl;
-	cout<<"Процент роста в должности: "<<this->wg<<endl;
+	cout<<"РџСЂРѕС„. РѕР±Р»Р°СЃС‚СЊ: "<<this->pfnm<<endl;
+	cout<<"Р—Р°СЂР°Р±РѕС‚РЅР°СЏ РїР»Р°С‚Р°: "<<this->zp<<endl;
+	cout<<"РЎС‚Р°Р¶: "<<this->staj<<endl;
+	cout<<"РџСЂРѕС†РµРЅС‚ СЂРѕСЃС‚Р° РІ РґРѕР»Р¶РЅРѕСЃС‚Рё: "<<this->wg<<endl;
 	
-	cout<<"+Процент условий работы: "<<this->wqp<<"\n\n";
+	cout<<"+РџСЂРѕС†РµРЅС‚ СѓСЃР»РѕРІРёР№ СЂР°Р±РѕС‚С‹: "<<this->wqp<<"\n\n";
 }
 
 
 void worker_1::show2() const
 {
-	cout<<"Экземпляр класса \"РАБОЧИЙ\", НЕ витруальная ф-ция: \n";
+	cout<<"Р­РєР·РµРјРїР»СЏСЂ РєР»Р°СЃСЃР° \"Р РђР‘РћР§РР™\", РќР• РІРёС‚СЂСѓР°Р»СЊРЅР°СЏ С„-С†РёСЏ: \n";
 	
-	cout<<"Имя: "<<this->nm<<endl;
-	cout<<"Возраст: "<<this->age<<endl;
-	cout<<"Пол: ";
-	if (this->sx)	cout<<"мужской\n";
-	else			cout<<"женский\n";
+	cout<<"РРјСЏ: "<<this->nm<<endl;
+	cout<<"Р’РѕР·СЂР°СЃС‚: "<<this->age<<endl;
+	cout<<"РџРѕР»: ";
+	if (this->sx)	cout<<"РјСѓР¶СЃРєРѕР№\n";
+	else			cout<<"Р¶РµРЅСЃРєРёР№\n";
 	
-	cout<<"Проф. область: "<<this->pfnm<<endl;
-	cout<<"Заработная плата: "<<this->zp<<endl;
-	cout<<"Стаж: "<<this->staj<<endl;
-	cout<<"Процент роста в должности: "<<this->wg<<endl;
+	cout<<"РџСЂРѕС„. РѕР±Р»Р°СЃС‚СЊ: "<<this->pfnm<<endl;
+	cout<<"Р—Р°СЂР°Р±РѕС‚РЅР°СЏ РїР»Р°С‚Р°: "<<this->zp<<endl;
+	cout<<"РЎС‚Р°Р¶: "<<this->staj<<endl;
+	cout<<"РџСЂРѕС†РµРЅС‚ СЂРѕСЃС‚Р° РІ РґРѕР»Р¶РЅРѕСЃС‚Рё: "<<this->wg<<endl;
 	
-	cout<<"+Процент условий работы: "<<this->wqp<<"\n\n";
+	cout<<"+РџСЂРѕС†РµРЅС‚ СѓСЃР»РѕРІРёР№ СЂР°Р±РѕС‚С‹: "<<this->wqp<<"\n\n";
 }

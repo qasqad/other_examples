@@ -1,4 +1,4 @@
-// »Õ∆≈Õ≈–
+// –ò–ù–ñ–ï–ù–ï–†
 #include "engineer.h"
 #include "person.h"
 #include <string>
@@ -19,7 +19,7 @@ engineer::engineer()
 
 engineer::engineer(char nm4[30], int age4, bool sx4, int pl2, int px2):person(nm4, age4, sx4)
 {
-	//cout<<" ÓÌÒÚÛÍÚÓ engineer\n";
+	//cout<<"–ö–æ–Ω—Å—Ç—Ä—É–∫—Ç–æ—Ä engineer\n";
 	    
     for (int i=0; i<29; i++)
         this->nm[i] = nm4[i];
@@ -37,49 +37,49 @@ engineer::engineer(char nm4[30], int age4, bool sx4, int pl2, int px2):person(nm
 
 engineer::~engineer()
 {
-	//cout<<"ƒÂÒÚÛÍÚÓ engineer\n";
+	//cout<<"–î–µ—Å—Ç—Ä—É–∫—Ç–æ—Ä engineer\n";
 }
 
 void engineer::show() const
 {
-	cout<<"›ÍÁÂÏÔÎˇ ÍÎ‡ÒÒ‡ \"»Õ∆≈Õ≈–\", ‚ËÚÛ‡Î¸Ì‡ˇ Ù-ˆËˇ: \n";
+	cout<<"–≠–∫–∑–µ–º–ø–ª—è—Ä –∫–ª–∞—Å—Å–∞ \"–ò–ù–ñ–ï–ù–ï–†\", –≤–∏—Ç—Ä—É–∞–ª—å–Ω–∞—è —Ñ-—Ü–∏—è: \n";
 	
-	cout<<"»Ïˇ: "<<this->nm<<endl;
-	cout<<"¬ÓÁ‡ÒÚ: "<<this->age<<endl;
-	cout<<"œÓÎ: ";
-	if (this->sx)	cout<<"ÏÛÊÒÍÓÈ\n";
-	else			cout<<"ÊÂÌÒÍËÈ\n";
+	cout<<"–ò–º—è: "<<this->nm<<endl;
+	cout<<"–í–æ–∑—Ä–∞—Å—Ç: "<<this->age<<endl;
+	cout<<"–ü–æ–ª: ";
+	if (this->sx)	cout<<"–º—É–∂—Å–∫–æ–π\n";
+	else			cout<<"–∂–µ–Ω—Å–∫–∏–π\n";
 
 	
-	cout<<"+”Ó‚ÂÌ¸ ‡Á‡·‡Ú˚‚‡ÂÏ˚ı ÔÓÂÍÚÓ‚: ";
+	cout<<"+–£—Ä–æ–≤–µ–Ω—å —Ä–∞–∑—Ä–∞–±–∞—Ç—ã–≤–∞–µ–º—ã—Ö –ø—Ä–æ–µ–∫—Ç–æ–≤: ";
 	
 	switch (this->pl)
 	{
 		case 1:
 			{
-				cout<<"ÌÂ·ÓÎ¸¯ËÂ\n";
+				cout<<"–Ω–µ–±–æ–ª—å—à–∏–µ\n";
 				break;
 			}
 
 		case 2:
 			{
-				cout<<"ÒÂ‰ÌËÂ\n";
+				cout<<"—Å—Ä–µ–¥–Ω–∏–µ\n";
 				break;
 			}
 
 		case 3:
 			{
-				cout<<"ÍÛÔÌ˚Â\n";
+				cout<<"–∫—Ä—É–ø–Ω—ã–µ\n";
 				break;
 			}
 		default:
 			{
-				cout<<"ÌÂÍÓÂÚÌ˚È Ô‡‡ÏÂÚ ( ‰ÓÔÛÒÚËÏ˚Â ÁÌ‡˜ÂÌËˇ 1,2,3)\n";
+				cout<<"–Ω–µ–∫–æ—Ä—Ä–µ—Ç–Ω—ã–π –ø–∞—Ä–∞–º–µ—Ç—Ä ( –¥–æ–ø—É—Å—Ç–∏–º—ã–µ –∑–Ω–∞—á–µ–Ω–∏—è 1,2,3)\n";
 				break;
 			}
 	}
 	
-	cout<<"+ ÓÎË˜ÂÒÚ‚Ó ˜ÂÎÓ‚ÂÍ ‚ ÔÓ‰˜ËÌÂÌËË: "<<this->px<<"\n\n";
+	cout<<"+–ö–æ–ª–∏—á–µ—Å—Ç–≤–æ —á–µ–ª–æ–≤–µ–∫ –≤ –ø–æ–¥—á–∏–Ω–µ–Ω–∏–∏: "<<this->px<<"\n\n";
 }
 
 

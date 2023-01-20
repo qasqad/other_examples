@@ -1,4 +1,4 @@
-// РАБОЧИЙ
+// Р РђР‘РћР§РР™
 #pragma once
 #include <string>
 #include <iostream>
@@ -8,7 +8,7 @@ using namespace std;
 class worker_2:public employer_2
 {
 	protected:	
-		short	wqp;		// % удобств в условиях работы
+		short	wqp;		// % СѓРґРѕР±СЃС‚РІ РІ СѓСЃР»РѕРІРёСЏС… СЂР°Р±РѕС‚С‹
 	public:					
 		worker_2();
 		//worker_2(short wqp1, string pfnm2, float zp2, float staj2, short wg2, string nm2, short age2, bool sx2);

@@ -1,4 +1,4 @@
-// Õ¿œ–¿¬À≈Õ»≈
+// –ù–ê–ü–†–ê–í–õ–ï–ù–ò–ï
 # include "gr_nve.h"
 #include "item.h"
 #include "cls_engineer.h"
@@ -7,13 +7,13 @@
 
 gr_nve::gr_nve()
 {
-	this->obj_name = "Õ¿œ–¿¬À≈Õ»≈";
-	//cout<<" ÓÌÒÚÛÍÚÓ "<<this->obj_name<<endl;
+	this->obj_name = "–ù–ê–ü–†–ê–í–õ–ï–ù–ò–ï";
+	//cout<<"–ö–æ–Ω—Å—Ç—Ä—É–∫—Ç–æ—Ä "<<this->obj_name<<endl;
 }
 
 gr_nve::~gr_nve()
 {
-	//cout<<"ƒÂÒÚÛÍÚÓ "<<this->obj_name<<endl;
+	//cout<<"–î–µ—Å—Ç—Ä—É–∫—Ç–æ—Ä "<<this->obj_name<<endl;
     //cout<<"\t\t_______________"<<this->obj_name<<"_______________\n";
 
 	int i=1;
@@ -33,11 +33,11 @@ gr_nve::~gr_nve()
 
 void gr_nve::insert(gr_TObject* gr_o2, item* it2)
 {
-	//cout<<"Insert ‚˚Á‚‡Ì "<<this->obj_name<<endl;
+	//cout<<"Insert –≤—ã–∑–≤–∞–Ω "<<this->obj_name<<endl;
 	
 	int i=0; 
 	
-	while((it2+i)->TObj!=NULL)	i=rand()%54;	// ÔÓËÒÍ Ò‚Ó·Ó‰ÌÓ„Ó item`‡. ˝ÎÂÏÂÌÚ˚ ‚˚·Ë‡˛ÚÒˇ ‚ÔÂÂÏÂ¯ÍÛ
+	while((it2+i)->TObj!=NULL)	i=rand()%54;	// –ø–æ–∏—Å–∫ —Å–≤–æ–±–æ–¥–Ω–æ–≥–æ item`–∞. —ç–ª–µ–º–µ–Ω—Ç—ã –≤—ã–±–∏—Ä–∞—é—Ç—Å—è –≤–ø–µ—Ä–µ–º–µ—à–∫—É
 
 	(it2+i)->TObj = gr_o2;
 	(it2+i)->next = this->fO_lifo;
@@ -66,7 +66,7 @@ void gr_nve::show() const
 
 void gr_nve::iter(fp fnc, int * t3)
 {
-        cout<<"\t\tÒÏÓÚËÏ Ì‡Ô‡‚ÎÂÌËÂ:\n";
+        cout<<"\t\t—Å–º–æ—Ç—Ä–∏–º –Ω–∞–ø—Ä–∞–≤–ª–µ–Ω–∏–µ:\n";
 
         item * p3_1 = this->fO_lifo;
 

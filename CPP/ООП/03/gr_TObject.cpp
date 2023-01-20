@@ -1,4 +1,4 @@
-// —œ»—Œ 
+// –°–ü–ò–°–û–ö
 #include "gr_TObject.h"
 #include "item.h"
 #include <string>
@@ -7,7 +7,7 @@
 gr_TObject::gr_TObject()
 {
 	this->obj_name = "gr_TObject";
-	//cout<<" ÓÌÒÚÛÍÚÓ "<<this->obj_name<<endl;
+	//cout<<"–ö–æ–Ω—Å—Ç—Ä—É–∫—Ç–æ—Ä "<<this->obj_name<<endl;
 }
 
 gr_TObject::~gr_TObject()

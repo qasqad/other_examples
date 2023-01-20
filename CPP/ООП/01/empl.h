@@ -5,23 +5,23 @@ using namespace std;
 
 class empl
 {
-	string nm;		                                    // имя
-	int age;		                                    // возраст
-	string lv;		                                    // должность
+	string nm;		                                    // РёРјСЏ
+	int age;		                                    // РІРѕР·СЂР°СЃС‚
+	string lv;		                                    // РґРѕР»Р¶РЅРѕСЃС‚СЊ
 
 public:
 
-	empl();											    // конструктор без параметров
-	empl(string nm2, int age2, string lv2);			    // конструктор с параметрами
-	empl(const empl& em);								// конструктор копирования
-	~empl();										    // деструктор
+	empl();											    // РєРѕРЅСЃС‚СЂСѓРєС‚РѕСЂ Р±РµР· РїР°СЂР°РјРµС‚СЂРѕРІ
+	empl(string nm2, int age2, string lv2);			    // РєРѕРЅСЃС‚СЂСѓРєС‚РѕСЂ СЃ РїР°СЂР°РјРµС‚СЂР°РјРё
+	empl(const empl& em);								// РєРѕРЅСЃС‚СЂСѓРєС‚РѕСЂ РєРѕРїРёСЂРѕРІР°РЅРёСЏ
+	~empl();										    // РґРµСЃС‚СЂСѓРєС‚РѕСЂ
 
-	// селекторы
+	// СЃРµР»РµРєС‚РѕСЂС‹
 	    string getNm() const;
 	    int getAge() const;
 	    string getLv() const;
 
-	// модификаторы
+	// РјРѕРґРёС„РёРєР°С‚РѕСЂС‹
 	    void setNm(string nm12);
 	    void setAge(int age12);
 	    void setLv(string lv12);

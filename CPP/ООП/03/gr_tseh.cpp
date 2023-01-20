@@ -1,4 +1,4 @@
-// ÷≈’
+// –¶–ï–•
 #include "gr_tseh.h"
 #include "item.h"
 #include "cls_worker.h"
@@ -7,13 +7,13 @@
 
 gr_tseh::gr_tseh()
 {
-	this->obj_name = "÷≈’";
-	//cout<<" ÓÌÒÚÛÍÚÓ "<<this->obj_name<<endl;
+	this->obj_name = "–¶–ï–•";
+	//cout<<"–ö–æ–Ω—Å—Ç—Ä—É–∫—Ç–æ—Ä "<<this->obj_name<<endl;
 }
 
 gr_tseh::~gr_tseh()
 {
-	//cout<<"ƒÂÒÚÛÍÚÓ "<<this->obj_name<<endl;
+	//cout<<"–î–µ—Å—Ç—Ä—É–∫—Ç–æ—Ä "<<this->obj_name<<endl;
     //cout<<"\t\t____________________"<<this->obj_name<<"____________________\n";
 
 	int i=1;
@@ -34,11 +34,11 @@ gr_tseh::~gr_tseh()
 void gr_tseh::insert(gr_TObject* gr_o2, item* it2)
 {
 	
-	//cout<<"Insert ‚˚Á‚‡Ì "<<this->obj_name<<endl;
+	//cout<<"Insert –≤—ã–∑–≤–∞–Ω "<<this->obj_name<<endl;
 	
 	int i=0; 
 	
-	while((it2+i)->TObj!=NULL)	i=rand()%54;	// ÔÓËÒÍ Ò‚Ó·Ó‰ÌÓ„Ó item`‡. ˝ÎÂÏÂÌÚ˚ ‚˚·Ë‡˛ÚÒˇ ‚ÔÂÂÏÂ¯ÍÛ
+	while((it2+i)->TObj!=NULL)	i=rand()%54;	// –ø–æ–∏—Å–∫ —Å–≤–æ–±–æ–¥–Ω–æ–≥–æ item`–∞. —ç–ª–µ–º–µ–Ω—Ç—ã –≤—ã–±–∏—Ä–∞—é—Ç—Å—è –≤–ø–µ—Ä–µ–º–µ—à–∫—É
 
 	(it2+i)->TObj = gr_o2;
 	(it2+i)->next = this->fO_lifo;
@@ -67,7 +67,7 @@ void gr_tseh::show() const
 
 void gr_tseh::iter(fp fnc, int * t2)
 {
-    cout<<"\t\tÒÏÓÚËÏ ˆÂı:\n";
+    cout<<"\t\t—Å–º–æ—Ç—Ä–∏–º —Ü–µ—Ö:\n";
 
     item * p3_1 = this->fO_lifo;
 
