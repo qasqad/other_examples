@@ -1,0 +1,11 @@
+C:\Projects\CSharpStudents\CSharpStudents\bin\Debug\CSharpStudents.exe.config
+C:\Projects\CSharpStudents\CSharpStudents\bin\Debug\CSharpStudents.exe
+C:\Projects\CSharpStudents\CSharpStudents\bin\Debug\CSharpStudents.pdb
+C:\Projects\CSharpStudents\CSharpStudents\obj\Debug\CSharpStudents.csprojAssemblyReference.cache
+C:\Projects\CSharpStudents\CSharpStudents\obj\Debug\CSharpStudents.Form1.resources
+C:\Projects\CSharpStudents\CSharpStudents\obj\Debug\CSharpStudents.Properties.Resources.resources
+C:\Projects\CSharpStudents\CSharpStudents\obj\Debug\CSharpStudents.csproj.GenerateResource.cache
+C:\Projects\CSharpStudents\CSharpStudents\obj\Debug\CSharpStudents.csproj.CoreCompileInputs.cache
+C:\Projects\CSharpStudents\CSharpStudents\obj\Debug\CSharpStudents.exe
+C:\Projects\CSharpStudents\CSharpStudents\obj\Debug\CSharpStudents.pdb
+C:\Projects\CSharpStudents\CSharpStudents\obj\Debug\CSharpStudents.workWithStudents.resources
